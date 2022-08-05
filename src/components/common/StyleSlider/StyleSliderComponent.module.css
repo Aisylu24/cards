@@ -1,0 +1,8 @@
+.styledSlider {
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border: 1px solid hotpink;
+}

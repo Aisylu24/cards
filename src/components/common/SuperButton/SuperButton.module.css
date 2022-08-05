@@ -1,0 +1,37 @@
+.button {
+    overflow:hidden;
+    cursor:pointer;
+    font-weight: bold;
+    background: mistyrose;
+    color: palevioletred;
+    border-color: palevioletred;
+    margin: 10px 15px;
+}
+
+.default {
+    border-radius: 10px;
+    min-width: 70px;
+    min-height:30px;
+    outline: none;
+}
+
+.delete {
+    background: mistyrose;
+    border-radius: 50%;
+    border-color: palevioletred;
+    min-width: 30px;
+    min-height: 30px;
+    color: palevioletred;
+}
+
+button:disabled {
+    background-color: lightgrey;
+}
+
+button:active {
+    background-color: hotpink;
+}
+
+.filter:focus {
+    background-color: mediumpurple;
+}

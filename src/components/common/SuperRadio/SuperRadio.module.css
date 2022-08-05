@@ -1,0 +1,36 @@
+.label {
+    font-family: Aharoni, sans-serif;
+    font-size: medium;
+    color: palevioletred;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.radio {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: hotpink;
+    border-radius: 50%;
+
+}
+
+.radio:checked {
+    border: 6px solid hotpink;
+    appearance: none;
+    background: mistyrose;
+}
+
+
+.radio:hover {
+    cursor: pointer;
+    border: 6px solid hotpink;
+    background: mistyrose;
+}
+
+.radioDiv {
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+}

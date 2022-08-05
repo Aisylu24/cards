@@ -1,0 +1,12 @@
+.span {
+    cursor: pointer;
+    font-family: Aharoni sans-serif;
+    color: darkblue;
+    font-size: 20px;
+}
+
+.span:hover {
+    border: 1px solid hotpink;
+
+}
+

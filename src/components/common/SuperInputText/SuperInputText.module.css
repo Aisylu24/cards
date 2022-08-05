@@ -1,0 +1,25 @@
+.superInput {
+    background: mistyrose;
+}
+
+.errorInput {
+    margin: 5px;
+    border: 2px solid mediumpurple;
+}
+
+.error {
+    font-family: Aharoni, sans-serif;
+    color: mediumpurple;
+}
+
+input:checked {
+    outline: none;
+    border: hotpink solid 2px;
+    box-shadow: 1px 1px 2px 0 blue;
+}
+
+input {
+    margin:5px;
+    border-color: palevioletred;
+    padding: 3px;
+}

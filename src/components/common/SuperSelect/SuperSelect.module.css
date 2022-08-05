@@ -1,0 +1,31 @@
+.select {
+    width: 100px;
+    padding: 5px;
+    appearance: none;
+    background-color: mistyrose;
+    font-family: Aharoni, sans-serif;
+    font-size: medium;
+    color: palevioletred;
+    background-repeat: no-repeat, repeat;
+    background-position: right 1px top 50%, 0 0;
+    background-size: 1em auto, 100%;
+    background-image: url("tri.svg");
+    border: 1px solid hotpink;
+    margin: 10px;
+}
+
+.select:focus {
+   outline: none;
+}
+
+.select:hover {
+    cursor: pointer;
+}
+
+.option:checked {
+   background-color: mediumpurple;
+}
+
+
+
+
