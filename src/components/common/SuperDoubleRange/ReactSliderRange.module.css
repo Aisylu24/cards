@@ -1,0 +1,61 @@
+
+.container {
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    border: 1px solid palevioletred;
+}
+
+.container > div > div:nth-child(2) {
+    top: -1px;
+    bottom: 0;
+    border-radius: 999px;
+    background-color: hotpink;
+}
+
+
+.slider {
+    background-color: mistyrose;
+    width: 300px;
+    height: 10px;
+    border: 1px solid hotpink;
+    border-radius: 3px;
+}
+
+.tracker {
+    top:0;
+}
+
+.tracker-1 {
+    background: green;
+}
+
+.thumb {
+    height: 18px;
+    line-height: 10px;
+    width: 18px;
+    text-align: center;
+    background-color: hotpink;
+    color: #fff;
+    border-radius: 50%;
+    cursor: grab;
+    top: -3px;
+    box-shadow: 0 0 5px 0 #604694;
+
+}
+
+.thumb:checked {
+    border: 1px solid hotpink;
+}
+
+
+.thumb:focus {
+    outline: none;
+    box-shadow: 0 0 5px 2px #604694;
+}
+
+.valuesWrapper {
+    font-family: Aharoni sans-serif;
+    color: rebeccapurple;
+}
