@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Pages = () => {
+const Profile = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const Pages = () => {
     );
 };
 
-export default Pages;
+export default Profile;
